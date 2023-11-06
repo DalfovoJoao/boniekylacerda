@@ -1,0 +1,27 @@
+fieldset {
+
+    background-color: bisque;
+    margin-bottom: 20px;
+    border: solid 2px gray;
+}
+
+legend {
+    background-color: gray;
+}
+
+#lastname,
+.joao,
+textarea {
+    border: solid 10px green;
+}
+
+#menu h3 {
+    margin-left: 20px;
+}
+
+#menu {
+    display: none;
+}
+#menu.open {
+    display: block;
+}

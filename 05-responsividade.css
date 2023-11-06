@@ -1,0 +1,33 @@
+
+head + body {
+    background-color: rgb(253, 32, 165);
+
+}
+
+html body {
+    background-color: rgb(15, 191, 65);
+
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: red;
+    
+    }
+    h1 {
+        font-size: 15px;
+    }
+}
+@media (min-width: 701px) and (max-width: 1023px) {
+    body {
+        background-color: lime;
+        
+    }
+}
+@media (min-width: 1000px ) {
+    body {
+        background-color: blue;
+    }
+} 
+
+
