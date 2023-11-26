@@ -1,5 +1,5 @@
 :root {
-    --bg-color: black;
+    --bg-color: rgb(255, 255, 255);
     --bg-second: #444;
     --font-color:   #FFF;
 
@@ -8,7 +8,7 @@
 
 body {
     display: flex;
-    background-color: var(--bg-color);
+    background-color: var(--bg-second);
 }
 
 div {
