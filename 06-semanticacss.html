@@ -1,11 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="06-semanticacss.css">
 </head>
-<body>
 
+<body>
+    <header>
+        <div class="titulo-principal">
+            <h1>Header é o cabeçalho da página</h1>
+        </div>
+    </header>
+    <p></p>
+    <nav>
+        Serve para mostrar o menu principal o -nav
+    </nav>
+    <p></p>
+    <footer>
+        Serve para auxiliar mostrando que é o rodapé -footer
+    </footer>
+    <p></p>
+    <section>
+        a tag <bold>-section</bold> é usada para separar por sessões e assuntos o seu site
+    </section>
+    <p></p>
+    <article>-article, essa tag é usada para falar qual a parte mais importante</article>
+    <aside>-aside, tag usada para especificar um conteudo secundario em seu site
+    </aside>
+    -time a tag time é usada para especificar para o motor de busca que a frase onde está o time se refere e a uma data
+    especifica
+
+    <p></p>
+    <p></p>
+    <p></p>
+    Agora vamos falar sobre tipos de input types, normalmente sendo usados dentro de formulários, temos -email, -submit,
+    -tel, -number, -range, -date, -time, -datetime-local, -color
+    <form method="POST">
+        <input type="number" required />
+
+        <input type="submit" value="Enviar" />
+    </form>
+    <input type="range" min="10" max="50" />
+    <p>
+
+    </p>
+    Agora falamos de um atributo importante chamado -data
+    <div data-nome="Joãohenrique">
+        Testando um atributo data, usado para guardar informações do seu código.
+    </div>
+    Agora vamos usar a tag -video
+    <video width="320" height="640" autoplay>
+        <source src="WhatsApp Video 2023-11-26 at 23.15.42.mp4" type="video/mp4">
+
+    </video>
+    <p></p>
+    Temos também a tag -audio, que como o vídeo é usado para especificar que é um audio
+    <p></p>
+    Temos agora o atributo -placeholder, que é um texto no html, usado para ficar por baixo do campo, mostrando para o
+    usuário o que vai ter no campo<br><br>
+
+    <div class="logininterface">
+        <form method="POST">
+            <fieldset>
+                <label>
+                    Usuário: <br>
+                </label>
+                <input type="text" name="usuario" autofocus maxlength="5" placeholder="Usuário"><br>
+                Senha:<br>
+                <input type="password" name="senha" placeholder="digite aqui sua senha seu lixo">
+            </fieldset>
+        </form>
+    </div>
+    <br>
+    Temos agora o foco principal, como fiz agora para entrar no usuario, usando o atributo -autofocus, no input, indo diretamente para onde voce deseja que o usuario digite.
+    <br><br><br>
+    Aqui temos para se usar no input o atributo -maxlength , para determinar o máximo de caracteres.
+    <br><br><br>
+    O atributo -required , é usado junto de inputs para se determinar que é obrigatório alguma ter alguma coisa para ser enviada
+    <br><br><br>
+    O atributo -autocomplete é usado quando voce quer habilitar ou não habilitar o autocomplete no seu site.
+    <br><br><br>
+    Agora treinando bordas arredondadas. usamos o -border-radius no cs, se quisermos especificar qual canto da borda é com bottom, left, top, left, right.
+    <br><br><br>
+    <div id="teste">
+
+    </div>
 </body>
+
 </html>
