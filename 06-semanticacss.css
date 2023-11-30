@@ -1,3 +1,13 @@
+@keyframes exemplo {
+    0% {background-color: blue;top:0px;left: 0px;}
+    25% {background-color: black;top: 0px;left: 200px;}
+    50% {background-color: aqua;top: 200px; left: 200px;}
+    75% {background-color: gold;top: 200px; left: 0px;}
+    100% {background-color: blueviolet;top: 0; left: 0;}
+}
+
+
+
 .titulo-principal {
     background-color: aqua;
     border: 2px solid black;
@@ -18,4 +28,27 @@
 }
 input {
     border-radius: 10px;
+}
+.exemplo {
+    width: 500px;
+    height: 200px;
+    background-color: red;
+    background: linear-gradient(white, blue) ;
+    background: -moz-linear-gradient(white, blue);
+    background: -webkit-linear-gradient(white, blue) ;
+    background: -o-linear-gradient(white, blue) ;
+}
+
+
+.animationdiv {
+    width: 150px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    animation-name: exemplo;
+    animation-duration: 10s;
+    margin-left: 0px;
+    padding-left: 0px;
+    animation-iteration-count: 3;
+
 }
