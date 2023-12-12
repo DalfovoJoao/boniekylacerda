@@ -34,9 +34,11 @@ input {
     height: 200px;
     background-color: red;
     background: linear-gradient(white, blue) ;
-    background: -moz-linear-gradient(white, blue);
-    background: -webkit-linear-gradient(white, blue) ;
-    background: -o-linear-gradient(white, blue) ;
+    box-shadow: 10px 10px 30px;
+    transition: all 3s linear;
+}
+.exemplo:hover {
+   width: 370px;
 }
 
 
@@ -51,4 +53,17 @@ input {
     padding-left: 0px;
     animation-iteration-count: 3;
 
+}
+
+div[data-nome] { color: red;}
+div[data-nome=spark] { color: lime;}
+
+.video {
+    border-radius: 50%;
+}
+
+body {
+    background-color: green;
+    background: linear-gradient(green, white);
+    background: linear-gradient();
 }
