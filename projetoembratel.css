@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+.fundocomputador{
+    width: 100%;
+
+
+}
+.container {
+  position: relative;
+}
+.logoembratel {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+
+    width: 25%;
+}
+.container1{
+
+    background-color: black;
+    position: absolute;
+
+
+
+
+}
+
+
+
+
