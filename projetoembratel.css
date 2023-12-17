@@ -1,14 +1,22 @@
+
 body {
     margin: 0;
+   )
+
+    ;
 }
-.fundocomputador{
+
+.fundocomputador {
     width: 100%;
 
 
 }
+
 .container {
-  position: relative;
+    position: relative;
+    text
 }
+
 .logoembratel {
     position: absolute;
     left: 10%;
@@ -16,7 +24,8 @@ body {
 
     width: 25%;
 }
-.container1{
+
+.container1 {
 
     background-color: black;
     position: absolute;
@@ -26,6 +35,21 @@ body {
 
 }
 
+.rodape {
+    background-color: blue;
+    position: 0px;
+}
+
+
+.bolaengrenagem {
+    background-color: rgba(86, 204, 242, 1);
+    width: 100px;
+    height: 100px;
+    display: ;
+
+    border-radius: 50%;
 
 
 
+}
+*/
