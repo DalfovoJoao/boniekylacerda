@@ -1,33 +1,33 @@
-
-head + body {
-    background-color: rgb(253, 32, 165);
-
-}
-
-html body {
-    background-color: rgb(15, 191, 65);
+:root {
+    --bg-color: rgb(255, 255, 255);
+    --bg-second: #444;
+    --font-color:   #FFF;
 
 }
 
-@media (max-width: 600px) {
+
+body {
+    display: flex;
+    background-color: var(--bg-second);
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+h1 {
+    color: var(--font-color);
+}
+
+@media (orientation: landscape) {
     body {
-        background-color: red;
-    
-    }
-    h1 {
-        font-size: 15px;
+        flex-direction: row;
     }
 }
-@media (min-width: 701px) and (max-width: 1023px) {
+
+@media (orientation: portrait) {
     body {
-        background-color: lime;
-        
+        flex-direction: column;
     }
 }
-@media (min-width: 1000px ) {
-    body {
-        background-color: blue;
-    }
-} 
-
-

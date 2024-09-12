@@ -1,0 +1,70 @@
+
+
+.search {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+
+}
+
+.search__button {
+    border: 1px solid green;
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: relative;
+}
+.search__button-image {
+    border: 1px solid blue;
+}
+.search__tooltip {
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    padding: 2px 8px ;
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 51px;
+    /* display: block; */
+
+}
+.search__button:hover .search__tooltip {
+
+}
+.search__button:hover .search__tooltip {
+    display: block;
+}
+
+.a {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    /* position: relative; */
+
+}
+.b {
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    position: relative;
+
+}
+.c {
+    width: fit-content;
+    height: 20px;
+    border: 1px solid lime;
+    background-color: lime;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    /* margin-left: 75px;
+    margin-top: 75px; */
+}
+
+/* tenta mostrar o submenu embaixo de cada item que fizer o :hover */
+.menu {border: 1px solid lime;padding: 0;}
+.menu__item {display: inline-block;border:1px solid red;margin: 2px 0 0 16px;}
+.menu__submenu {display: none;}
+
+.menu__item:hover .menu__submenu {}
